@@ -77,9 +77,13 @@ svg {
 .section-description-abilities{
     display: flex;
     justify-content: space-around;
-    background-color: palegoldenrod;
+    /* flex-grow: 1;  */
+    /* background-color: palegoldenrod; */
 }
 
-.section-description-abilities-rigorous{
+.section-description-abilities-title{
     font-size: 1.1vw;
+    border-bottom: solid #6400E4;
+    padding-bottom: 10px;
+    display: inline-block;
 }
